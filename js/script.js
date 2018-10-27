@@ -10,10 +10,14 @@
 
              let boton = document.createElement("button");
              let btntext = document.createTextNode("Eliminar");
+             boton.style.backgroundColor="yellow";
+             boton.style.color="blue";
              boton.appendChild(btntext);
 
              let boton2 = document.createElement("button");
              let btn2text = document.createTextNode("Tachar");
+             boton2.style.backgroundColor="red";
+             boton2.style.color="white";
              boton2.appendChild(btn2text);
 
              let texto = document.createTextNode(task);
